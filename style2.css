@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    padding: 20px;
+}
+
+.links{
+    display: inline;
+    margin-left: 480px;
+}
+
+.links a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+}
+
+.links a:hover{
+    color: #e605d3;
+    border-top: 2px solid #e605d3;
+    border-bottom: 2px solid #e605d3;
+}
+
+.link-a-1{
+    background-color: #bb09ac;
+    border: #e605d3 solid 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.link-a-2{
+    background-color: transparent;
+    border: #e605d3 solid 2px;
+    font-weight: bold;
+}
+
+
+.span-1, .span-2{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.span-1{
+    color:#85037a ;
+}
+
+.span-2{
+    color: #e605d3;
+}
+
+.secao-1{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.secao-2{
+    width: 500px;
+    margin-top:10px ;
+    margin-bottom: 1px;
+}
+
+.secao-3{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.secao-4{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.secao-1 h1{
+    font-weight: bold;
+}
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+}
+
+img{
+    width: 200px;
+    margin: 0 auto;
+}
+.img img{
+    width: 70%;
+    border-radius: 100%;
+}
+
+.img-col{
+    width: 20%;
+    border-radius: 100%;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+vertical-align: top;
+margin: 0.5% 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 4px solid #9a9649;
+border-radius: 10px;
+
+}
+
+.produtos img{
+    width: 100px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+
+}
+
+.produtos li:active{
+    border-color: #fc1111;
+}
+
+.produtos li:hover h2{
+    font-size: 42px;
+}
